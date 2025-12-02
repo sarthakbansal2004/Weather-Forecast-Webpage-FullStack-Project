@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Weather Report</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="page">
+    <section class="bg-layer" id="bgLayer"></section>
+
+    <div class="glass-card" role="main" aria-labelledby="appTitle">
+      <header class="card-head">
+        <h1 id="appTitle">Weather Forcast</h1>
+        <p class="subtitle">Real-time weather</p>
+      </header>
+
+      <div class="search-block">
+        <label for="cityInput" class="visually-hidden">Search city</label>
+        <input id="cityInput" type="text" autocomplete="off" placeholder="Enter city name (e.g., Mumbai)" />
+        <ul id="suggestions" class="suggestions" role="listbox" aria-label="City suggestions"></ul>
+      </div>
+
+      <section id="weatherPanel" class="weather-panel hidden" aria-live="polite">
+        <div class="weather-left">
+          <img id="weatherIcon" class="weather-icon" src="" alt="" />
+          <div class="temp-block">
+            <span id="tempC" class="temp">--°C</span>
+            <span id="conditionText" class="condition">--</span>
+          </div>
+        </div>
+
+        <div class="weather-right">
+          <div class="meta">
+            <div><strong>City</strong><div id="cityName">—</div></div>
+            <div><strong>Feels like</strong><div id="feelsLike">—°C</div></div>
+            <div><strong>Wind</strong><div id="wind">— kph</div></div>
+            <div><strong>Humidity</strong><div id="humidity">—%</div></div>
+            <div><strong>Local time</strong><div id="localTime">—</div></div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="card-foot">
+        <small>Made by Sarthak Bansal</small>
+        <button id="useLocationBtn" class="btn subtle">Use my location</button>
+      </footer>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
