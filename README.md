@@ -1,34 +1,60 @@
-# 🌦️ Weather Forecast Webpage (Full Stack)
+# 🌦️ Weather Forecast Webpage – Full Stack Project
 
-A simple **Weather Forecast Webpage** built using **HTML, CSS, and JavaScript** that allows users to check current weather details for any city in the world.  
-This project demonstrates real-time data fetching, API usage, and responsive web design.
+A modern and interactive **Weather Forecast Web Application** built using **HTML, CSS, and JavaScript**.  
+This project allows users to check **real-time weather information** of any city across the world using a weather API.
+
+---
+
+## 📖 Introduction
+
+Weather forecasting plays an important role in daily life.  
+This project demonstrates how a real-world weather application works by fetching live data from an external API and displaying it in a clean, user-friendly interface.
+
+The project is suitable for **beginners to intermediate developers** who want to understand:
+- API integration
+- JavaScript Fetch API
+- DOM manipulation
+- Frontend project structure
 
 ---
 
 ## 🧠 Project Overview
 
-This project allows the user to:
+The Weather Forecast Webpage allows users to:
 
-✔️ Enter a city name  
-✔️ Fetch weather information using a weather API  
-✔️ Display temperature, condition, and weather icons  
-✔️ Provide a simple and friendly user interface
+✔ Enter a city name  
+✔ Fetch real-time weather data  
+✔ Display temperature in °C  
+✔ Show humidity, wind speed, and weather condition  
+✔ Display weather icons dynamically  
+✔ Handle invalid city names gracefully  
 
-The webpage dynamically updates weather details based on user input.
+All data is fetched dynamically without reloading the page.
 
+---
+
+## 🚀 Key Features
+
+- 🌍 Search weather for any city worldwide  
+- 🌡️ Real-time temperature display  
+- 💧 Humidity & wind speed information  
+- ☁️ Weather condition icons  
+- ⚡ Fast & responsive UI  
+- 📱 Mobile-friendly design  
 
 ---
 
 ## 🛠️ Technologies Used
 
-- HTML  
-- CSS  
-- JavaScript  
-- Weather API (e.g., OpenWeatherMap)  
+- **HTML5** – Structure of the webpage  
+- **CSS3** – Styling and responsive layout  
+- **JavaScript (ES6)** – Logic, API calls, DOM manipulation  
+- **Weather API** (e.g., OpenWeatherMap) – Real-time weather data  
+
 
 ---
 
-## ⚙️ How to Use / Run Locally
+## ⚙️ How to Run the Project Locally
 
 ### 1️⃣ Clone the Repository
 ```bash
